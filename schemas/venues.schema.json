@@ -23,5 +23,5 @@
     "name": "NormalizedName",
     "type": "STRING",
     "mode": "NULLABLE"
-  },
+  }
 ]
