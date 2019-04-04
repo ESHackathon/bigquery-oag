@@ -1,0 +1,81 @@
+[
+  {
+    "name": "id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "normalized_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "orgs",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "org",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "position",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "n_pubs",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "n_citation",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "h_index",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "fields": [
+      {
+        "name": "t",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "w",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      }
+    ],
+    "name": "tags",
+    "type": "RECORD",
+    "mode": "REPEATED"
+  },
+  {
+    "fields": [
+      {
+        "name": "r",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "i",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ],
+    "name": "pubs",
+    "type": "RECORD",
+    "mode": "REPEATED"
+  }
+]

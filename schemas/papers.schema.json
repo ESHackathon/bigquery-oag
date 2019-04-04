@@ -1,0 +1,131 @@
+[
+  {
+    "name": "id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "fields": [
+      {
+        "name": "org",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ],
+    "name": "authors",
+    "type": "RECORD",
+    "mode": "REPEATED"
+  },
+  {
+    "fields": [
+      {
+        "name": "id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "raw",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ],
+    "name": "venue",
+    "type": "RECORD",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "year",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "keywords",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "n_citation",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "page_start",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "page_end",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "doc_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lang",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publisher",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "volume",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issue",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issn",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "isbn",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "doi",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "url",
+    "type": "STRING",
+    "mode": "REPEATED"
+  },
+  {
+    "name": "pdf",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "abstract",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
