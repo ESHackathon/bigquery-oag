@@ -16,6 +16,8 @@ bash upload_storage.sh
 ## Upload files to biquery
 
 ```
-bash bigquery_upload_papers.sh > authors.log 2>&1 
+bash bigquery_upload_papers.sh > authors.log 2>&1
 bash bigquery_upload_papers.sh > papers.log 2>&1
+bash bigquery_upload_venues.sh > venues.log 2>&1
+bash bigquery_upload_linking.sh > linking.log 2>&1
 ```
