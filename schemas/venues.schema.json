@@ -1,0 +1,27 @@
+[
+  {
+    "name": "id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "JournalId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ConferenceId",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "DisplayName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "NormalizedName",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+]
