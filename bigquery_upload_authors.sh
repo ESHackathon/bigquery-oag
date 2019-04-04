@@ -1,3 +1,5 @@
+#!/bin/bash
+
 AUTHORS_TABLE=opensource-202114:openacademicgraph.authors
 
 echo "creating table authors"

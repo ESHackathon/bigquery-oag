@@ -1,3 +1,5 @@
+#!/bin/bash
+
 PAPERS_TABLE=opensource-202114:openacademicgraph.papers
 
 echo "creating table papers"
