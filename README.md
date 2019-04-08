@@ -1,8 +1,7 @@
 # biquery-oag
-Upload the open academic graph to google bigquery
+Upload the [open academic graph](https://www.openacademic.ai/oag/) to google bigquery
 
 ## Download data
-
 ```
 bash download.sh
 ```
