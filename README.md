@@ -52,6 +52,11 @@ FROM `opensource-202114.openacademicgraph.papers`
 
 OUTPUT: __80,808,741__
 
+## Second query
+Lets find all references that mention Epistemonikos in the abstract
 
 
+## Exploring the data
+
+We created a google colab (like google drive, but for coding), with the link you should be able to review and explore the data in google bigquery. [Go to google colab](https://colab.research.google.com/drive/1LkgbnEEHsjIBOPL82tVJVv6JF8F5Q-C6)
 
