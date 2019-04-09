@@ -3,7 +3,7 @@ Upload the [open academic graph](https://www.openacademic.ai/oag/) to google big
 
 ## Open academic graph?
 
-Are 2 dataset of 150 Million papers each (aprox). This dataset is available for use, but is difficult to use it, because you have to download huge compressed files of 10GB each (40GB uncompressed).
+2 dataset of 150 Million papers each (aprox). This dataset are available for use, but is difficult to use it, because you have to download huge compressed files of 10GB each (40GB uncompressed).
 
 ## Main idea 
 Is to make the dataset of references, accesible by anyone. Allowing to access more than 150M references.
